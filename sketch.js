@@ -96,9 +96,9 @@ function Speak_3() {
   speech.speak('잠시만 기다려주세요.');
 }
 
-function mousePressed() {
-  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
-    let fs = fullscreen();
-    fullscreen(!fs);
-  }
-}
+//function mousePressed() {
+//  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+//    let fs = fullscreen();
+//    fullscreen(!fs);
+//  }
+//}
